@@ -1,5 +1,24 @@
 Папка для стилевых файлов.
+body
+font-size:14 px;
+color: #000000;
+font-weight: NarrowBold;
+line-height: 18 px;
+font-family: "PT Sans"
 
+h1
+font-size:30 px;
+color: #000000;
+font-weight: NarrowBold;
+line-height: 42 px;
+font-family: "PT Sans"
+
+h2
+font-size:24 px;
+color: #000000;
+font-weight: NarrowBold;
+line-height: 30 px;
+font-family: "PT Sans"
 --
 
 Пример структуры файлов:
