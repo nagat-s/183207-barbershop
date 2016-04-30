@@ -125,19 +125,45 @@ clear: both;
 }
 .main-column-left {
     float: left;
-    width: 470 px;
+    width: 460 px;
+    padding: 0px;
 }
 .main-column-right {
     float: right;
-    width: 410 px;
+    width: 400px;
+   
 } 
 .m-photo li {
-     display: inline-block;
-    margin-right: 20 px;
-    padding-left: 0px; 
+     float: left;
+  width: 140px;
+  margin-right: 20px;
     
 }
-
+.m-photo li:last-child {
+    margin-right: 0;
+}
+.mini-photo {
+    padding-left: 0px;
+   
+}
+.photo-item {
+    margin-right: 0;
+    margin-left: 0;
+}
+.m-photo {
+    padding-left: 0
+}
+.art {
+    margin-bottom: 20px;
+}
+.price-item {
+    display: inline-block; 
+    
+}
+.to-buy a {
+    display: inline-block; 
+    
+}
 
 /*======================================
  Системное оформление - не изменять
