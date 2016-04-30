@@ -35,30 +35,30 @@ body {
     background-size: 1122px auto;
 }
 .clearfix::after {
-  content: "";
+    content: "";
 
-  display: table;
-  clear: both;
+    display: table;
+    clear: both;
 }
 
 .container {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 .main-header {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 h1 {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .main-navigation {
-  float: left;
-  width: 780px;
+    float: left;
+    width: 780px;
 }
 .user-block {
-  float: right;
-  width: 140px;
+    float: right;
+    width: 140px;
 }
 .index-content-left  .index-content-right {
    
@@ -125,7 +125,7 @@ clear: both;
 }
 .main-column-left {
     float: left;
-    width: 460 px;
+    width: 460px;
     padding: 0px;
 }
 .main-column-right {
@@ -163,6 +163,9 @@ clear: both;
 .to-buy a {
     display: inline-block; 
     
+}
+.about-item {
+    margin-bottom: 20px;
 }
 
 /*======================================
