@@ -1,53 +1,51 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-
-    <title>Барбершоп «Бородинский»</title>   
-    <link href="css/style.css"   rel="stylesheet">
-  </head>      
-
-    <title>barbershop-shop.psd</title>
-  </head>  
-
-  <body>
-    <header class="main-header">
-        <div class="conteiner">
-            <div class="index-logo">
-                <a href=" index.html">
-
-                    <img src="img/logo.png" width= "111"  height= "24" alt="Barbershop">
-
-                    
-
-                </a>
-            </div>   
-            <nav class="main-navigation">
+  <html lang="ru">
+    <head>
+      <meta charset="utf-8">
+      <title>Барбершоп «Бородинский»</title>   
+      <link href="css/style.css"   rel="stylesheet">
+    </head>      
+    <body>
+      <header class="main-header">   
+        <div class="container ">
+            <nav class="main-navigation">       
+              <div class="main-navigation-top">
                 <ul>
-                    <li>
-                        <a href="#"> Информация</a>
-                    </li>    
-                    <li>
-                        <a href="#">Новости</a>
-                    </li>
                     <li>
                         <a href="#">Прайс-лист</a>
                     </li>
                     <li>
                         <a href="#">Магазин</a>
                     </li>
+                </ul>
+              </div>
+              <div class="main-navigation-bottom clearfix">
+                <div class="index-logo">
+                  <a href=" index.html">
+                    <img src=" img/logo.png" width= "111px"  height= "24" alt="Barbershop">
+                  </a>
+                </div>     
+                <ul  class="navigation">
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>    
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    
                     <li>
                         <a href="#">Контакты</a>
                     </li>
                 </ul>
+                <div class="user-blok">
+                    <a class="login" href="#">Вход</a>
+                </div> 
+              </div>
             </nav>
-            <div class="user-blok">
-                <a class="login" href="#">Вход</a>
-            </div>  
+             
         </div>
-       
     </header>  
-    <main class="conteiner">
+    <main class="container clearfix">
         <h1>Средства для ухода</h1>
         <div class="breadscrumbs">
             <ul>
@@ -115,8 +113,8 @@
                 </form>    
             </div>
             <div class="index-content-right">
-                <div class="products">
-                    <article class="product">
+                <div class="content-top">
+                    <article class="product-1">
                         <div class="foto">
                             <a href="#product1">
                                 <img src="img/set-bos.jpg" width= "220px"  height= "165px" alt="set-bos">
@@ -131,7 +129,7 @@
                             <a class="btn" href="#">Купить</a>
                         </div>
                     </article>
-                    <article class="product">
+                    <article class="product-2">
                         <div class="foto">
                             <a href="#product2">
                                 <img src="img/conditioner.jpg" width= "220px"  height= "165px" alt="conditioner">
@@ -148,7 +146,7 @@
                     </article>
                     <article class="product">
                         <div class="foto">
-                            <a href="#product3">
+                            <a href="#product-3">
                                 <img src="img/gel.jpg" width= "220px"  height= "165px" alt="gel">
                             </a>
                         </div> 
@@ -160,7 +158,9 @@
                             <a class="btn" href="#">Купить</a>
                         </div>    
                     </article>
-                    <article class="product">
+                </div>
+                <div class="content-bottom">
+                    <article class="product-4">
                         <div class="foto">
                             <a href="#product4">
                                <img src="img/clay.jpg" width= "220px"  height= "165px" alt="clay">
@@ -175,7 +175,7 @@
                                 <a class="btn" href="#">Купить</a>
                             </div>    
                     </article>
-                    <article class="product">
+                    <article class="product-5">
                         <div class="foto">
                              <a href="#product5">
                                 <img src="img/gel-ac.jpg" width= "220px"  height= "165" alt="gel-ac">
@@ -190,7 +190,7 @@
                             <a class="btn" href="#">Купить</a>
                         </div>    
                     </article>
-                    <article class="product">
+                    <article class="product-6">
                         <div class="foto">
                             <a href="#product6">
                                 <img src="img/shaving-kit.jpg" width= "220px"  height= "165px" alt="shaving-kit">
@@ -208,7 +208,7 @@
                 </div>
             </div>
         </div>
-        <div class="page">
+        <div class="page ">
             <ul class="pagination-list">
                 <li class="pagination-item">
                     <a href="#" class="pagination-number">1</a>
@@ -224,7 +224,7 @@
         </div>    
     </main>
     <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
             <section class="footer-contacts">
                 Барбершоп "Бородинский"<br>
                 Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

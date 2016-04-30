@@ -1,49 +1,44 @@
-<<<<<<< HEAD
+
 body{
-font-size:14 px;
-color: #000000;
-font-weight: bold;
-line-height: 18 px;
-font-family: "PT Sans"
+    font-size:14 px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 18 px;
+    font-family: "PT Sans"
 }
 h1{
-font-size:30 px;
-color: #000000;
-font-weight: bold;
-line-height: 42 px;
-font-family: "PT Sans"
+    font-size:30 px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 42 px;
+    font-family: "PT Sans"
 }
 h2{
-font-size:24 px;
-color: #000000;
-font-weight: bold;
-line-height: 30 px;
-font-family: "PT Sans";
+    font-size:24 px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30 px;
+    font-family: "PT Sans";
 }
 
 
 html,
 body {
-  min-width: 1122px;
-  min-height: 1750px;
-  margin: 0;
-  padding: 0;
+    min-width: 1122px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background: #000000 url("barbershop-index-grid.jpg") no-repeat 50% 3px;
-  background-size: 1122px auto;
+    background: #000000 url("barbershop-index-grid.jpg") no-repeat 50% 3px;
+    background-size: 1122px auto;
 }
-
 .clearfix::after {
   content: "";
 
-  display: block;
+  display: table;
   clear: both;
-  height: 20px;
-  background-color: white;
-  background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);
-  background-size: 20px;
 }
 
 .container {
@@ -51,45 +46,79 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
-
+.main-header {
+  margin-bottom: 60px;
+}
+h1 {
+  margin-bottom: 24px;
+}
 .main-navigation {
   float: left;
   width: 780px;
-
-  /* Только для оформления сетки */
-  min-height: 70px;
 }
-
 .user-block {
   float: right;
   width: 140px;
-    border: 3px solid #cccccc;
-
-  /* Только для оформления сетки */
-  min-height: 70px;
+}
+.index-content-left  .index-content-right {
+   
+}
+.index-content-left {
+float: left;
+  width: 220px;
+}
+.index-content-right {
+ float: right;
+ width: 716px; 
+ 
+}
+.pagination-list {
+clear: both;
+  width: 230px
+}
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
 
+.footer-social { 
+    float: left;
+    width: 180px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-copyright {
+    float: right;
+    width: 180px;
+}
+.content-top {
+    width: 700px; 
+    min-height: 290px;
+}
+.product {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;    
+}
+.name {
+    padding-right: 15 px ;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+.prise {
+    
+  display: inline-block;
+}
+.to-buy a {
+ display: inline-block;   
+}
 /*======================================
  Системное оформление - не изменять
 =======================================*/
