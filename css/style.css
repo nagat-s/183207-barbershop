@@ -50,7 +50,7 @@ body {
   margin-bottom: 60px;
 }
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 .main-navigation {
   float: left;
@@ -119,6 +119,26 @@ clear: both;
 .to-buy a {
  display: inline-block;   
 }
+.breadscrumbs {
+   width: 640px;
+  margin-left: 0; 
+}
+.main-column-left {
+    float: left;
+    width: 470 px;
+}
+.main-column-right {
+    float: right;
+    width: 410 px;
+} 
+.m-photo li {
+     display: inline-block;
+    margin-right: 20 px;
+    padding-left: 0px; 
+    
+}
+
+
 /*======================================
  Системное оформление - не изменять
 =======================================*/
