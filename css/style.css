@@ -60,16 +60,13 @@ h1 {
     float: right;
     width: 140px;
 }
-.index-content-left  .index-content-right {
-   
-}
 .index-content-left {
-float: left;
-  width: 220px;
+    float: left;
+    width: 220px;
 }
 .index-content-right {
- float: right;
- width: 716px; 
+    float: right;
+    width: 716px; 
  
 }
 .pagination-list {
