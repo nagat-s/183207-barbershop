@@ -1,0 +1,269 @@
+.m-photo li {
+     display: inline-block;
+    margin-right: 20 px;
+    padding-left: 0px; 
+    
+}
+body{
+    font-size:14 px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 18 px;
+    font-family: "PT Sans"
+}
+h1{
+    font-size:30 px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 42 px;
+    font-family: "PT Sans"
+}
+h2{
+    font-size:24 px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30 px;
+    font-family: "PT Sans";
+}
+
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000 url("barbershop-index-grid.jpg") no-repeat 50% 3px;
+    background-size: 1122px auto;
+}
+
+.clearfix::after {
+    content: "";
+
+    display: block;
+    clear: both;
+    height: 20px;
+  
+    background-size: 20px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 0px;
+}
+.main-navigation-top li {
+    display:inline;
+}
+.navigation li {
+   display:inline;
+     
+
+}
+.index-logo {
+    width:150px;
+    float: left;
+}
+.navigation {
+    width:550px;
+    float: left;
+}
+.user-blok{
+    width:200px;
+    float: right;
+}
+
+h1 {
+    margin-right: 10px;
+}
+.index-content-left {
+    width:230px; 
+    float: left;
+}
+.index-content-right {
+    width:700px;
+    float: right;
+ 
+}
+
+.content-top {
+    width:700px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.product-1{
+    float: left;
+    margin-right: 20px;
+    
+}
+.product-2{
+    float: left;
+    margin-right: 20px;
+}
+.product-3{
+    float: right;
+    margin-right: 20px;
+}
+.content-bottom {
+    width:700px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.product-4{
+    float: left;
+    margin-right: 20px;
+}
+
+.product-5{
+    float: left;
+    margin-right: 20px;
+}
+.product-6{
+    float: right;
+    margin-right: 0px;
+}
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+}
+
+.footer-social {
+    float: left;
+    width: 180px;
+     display: inline;
+
+}
+
+.footer-copyright {
+    float: right;
+    width: 180px;
+}
+.main-column-left {
+    float: left
+}
+.main-column-right {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+
+}
+
+body > * > * > *::before {
+  color: black;
+
+  background: rgb(234, 255, 45);
+}
+
+.main-header::before {
+  content: ".main-header";
+}
+
+.container::before {
+  content: ".container";
+}
+
+.main-header .container::before {
+  top: auto;
+  bottom: -28px;
+}
+
+.main-navigation::before {
+  content: ".main-navigation";
+}
+
+.user-block::before {
+  content: ".user-block";
+}
+>>>>>>> parent of 99b288b... Revert "Revert "изменила код""
